@@ -5,6 +5,7 @@ import openai
 from PIL import Image,ImageTk
 import requests,io
 def generate_image():
+
     openai.api_key=os.getenv('OPENAI_API_KEY')
     user_prompt=prompt_entry.get("0.0",tk.END)
     user_prompt+="in style: "+style_dropdown.get()
