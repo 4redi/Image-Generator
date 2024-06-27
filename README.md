@@ -2,9 +2,7 @@
 To use the Image generator locally, follow these steps:
 
 Clone the repository: 
-``` 
-bash 
-git clone https://github.com/wolf123t/Image-Generator.git```
+`git clone https://github.com/wolf123t/Image-Generator.git`
 
 Open the `image_generator.py` file
 
